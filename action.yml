@@ -1,0 +1,6 @@
+inputs:
+  token:
+    default: ${{ github.token }}
+runs:
+  using: docker
+  image: docker://ghcr.io/jablko/allstar-action/allstar-action-4ed785c399342855e9fa4b2cc242ef73

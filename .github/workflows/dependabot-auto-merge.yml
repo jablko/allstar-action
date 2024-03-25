@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dependabot metadata
-        uses: dependabot/fetch-metadata@v1
+        uses: dependabot/fetch-metadata@v2
       - name: Enable auto-merge for Dependabot PRs
         run: gh pr --repo "$GITHUB_REPOSITORY" merge --auto --merge "$GITHUB_HEAD_REF" # https://github.com/cli/cli/pull/3557
         env:

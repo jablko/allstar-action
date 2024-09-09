@@ -6,7 +6,7 @@ require (
 	github.com/google/go-github/v50 v50.2.0
 	github.com/ossf/allstar v0.0.0-20230417155709-d199777fe882
 	github.com/rs/zerolog v1.33.0
-	golang.org/x/oauth2 v0.22.0
+	golang.org/x/oauth2 v0.23.0
 )
 
 require (

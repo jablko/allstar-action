@@ -1,11 +1,12 @@
 module github.com/jablko/allstar-action
 
 go 1.19
+toolchain go1.24.1
 
 require (
 	github.com/google/go-github/v50 v50.2.0
 	github.com/ossf/allstar v0.0.0-20230417155709-d199777fe882
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	golang.org/x/oauth2 v0.28.0
 )
 
